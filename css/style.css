@@ -135,10 +135,16 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+  body {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
   .container {
     flex-direction: column;
     width: 325px;
     margin-top: 5rem;
+
   }
 
   .faq-section {
@@ -172,7 +178,7 @@ body {
     width: 288px;
     visibility: visible;
     margin: auto;
-    margin-left: 3px;
+    margin-left: -6px;
     margin-top: -116px;
   }
 }
